@@ -1,0 +1,35 @@
+.new-grid{
+    background-color: #f1e6c7;
+    grid-column: 1/span 2;
+    margin: 0px 15px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    font-size: 1em;
+    margin:15px;
+    color: #000000;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+
+}
+
+.grid-item .icon{
+    text-align: center;
+    font-size: 3em;
+   color: #ff0000;
+}
+
+@media only screen and (max-width: 900px){
+    .new-grid, .main-grid, .grid-item, .icon{
+        display: inline;
+    }
+    body{
+        background-color: rgb(93, 241, 8);
+    }
+}

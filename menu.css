@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: auto; /*para que sea responsive*/
+    font-family: 'Lato', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li a{
+    background-color: brown;
+    color: white;
+    text-decoration: none; /*quitarle le link*/
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav li ul{
+    display: none; /*para que no aparezxa*/
+    position: absolute;
+    min-width: 123px;
+}
+
+.nav li:hover > ul{
+    display: block; /*para que aparezca cuando esta hover encima*/
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -123px;
+    top: 0px;
+}

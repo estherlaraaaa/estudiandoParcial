@@ -1,0 +1,34 @@
+.new-grid{
+    background-color: #ca6969;
+    grid-column: 1/span 2;
+    margin: 5%;;
+
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    font-size: 1em;
+    margin:auto;
+    color: #000000;
+}
+
+p, h4{
+    margin: 0%;
+    text-align: center;
+}
+
+img{
+    width: 300px; 
+    padding: 4%;
+    margin:auto; /*esto es para centrar una imagen*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+@media only screen and (max-width: 900px){
+    .new-grid, .main-grid{
+        display: block;
+    }
+}

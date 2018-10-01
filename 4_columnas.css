@@ -27,9 +27,8 @@
 
 @media only screen and (max-width: 900px){
     .new-grid, .main-grid, .grid-item, .icon{
-        display: inline;
+        display: block;
+        background-color: #c95050;
     }
-    body{
-        background-color: rgb(93, 241, 8);
-    }
+    
 }

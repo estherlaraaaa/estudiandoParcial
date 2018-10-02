@@ -1,0 +1,10 @@
+/*subir git
+cd Escritorio, cd carpeta, ls
+git clone
+cd carpeta de clone
+git add .
+git config user.name
+git config user.email
+git commit -m "hola"
+git push
+*/
